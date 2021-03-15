@@ -37,7 +37,7 @@
       "startPrivateRoom": "ابدأ غرفة خاصة معهم"
     },
     "followList": {},
-    "home": { "createRoom": "ابدأ غرفة" },
+    "home": { "createRoom": "ابدأ غرفة", "refresh": "Refresh" },
     "inviteList": {
       "roomGone": "انتهت الغرفة، عد إلى الوراء",
       "shareRoomLink": "شارك رابط الغرفة",
@@ -71,7 +71,9 @@
     "room": {
       "speakers": "المتحدثون",
       "requestingToSpeak": "جاري طلب التحدث",
-      "listeners": "المستمعون"
+      "listeners": "المستمعون",
+      "hide": "Hide",
+      "show": "Show"
     },
     "searchUser": { "search": "ابحث..." },
     "soundEffectSettings": { "header": "الأصوات" },

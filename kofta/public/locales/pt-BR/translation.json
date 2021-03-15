@@ -36,7 +36,7 @@
       "startPrivateRoom": "iniciar uma sala privada com ele"
     },
     "followList": {},
-    "home": { "createRoom": "Criar Sala" },
+    "home": { "createRoom": "Criar Sala", "refresh": "Refresh" },
     "inviteList": {
       "roomGone": "acabou a sala, volte",
       "shareRoomLink": "compartilhar link para sala",
@@ -70,7 +70,9 @@
     "room": {
       "speakers": "Apresentadores",
       "requestingToSpeak": "Solicitando para falar",
-      "listeners": "Ouvintes"
+      "listeners": "Ouvintes",
+      "hide": "Hide",
+      "show": "Show"
     },
     "searchUser": { "search": "buscar..." },
     "soundEffectSettings": { "header": "Sons" },

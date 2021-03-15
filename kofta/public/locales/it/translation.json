@@ -36,7 +36,7 @@
       "startPrivateRoom": "avvia una stanza privata con lui"
     },
     "followList": {},
-    "home": { "createRoom": "Crea una Stanza" },
+    "home": { "createRoom": "Crea una Stanza", "refresh": "Refresh" },
     "inviteList": {
       "roomGone": "stanza inesistente, torna indietro",
       "shareRoomLink": "condividi link della stanza",
@@ -70,7 +70,9 @@
     "room": {
       "speakers": "Oratori",
       "requestingToSpeak": "Vogliono parlare",
-      "listeners": "Ascoltatori"
+      "listeners": "Ascoltatori",
+      "hide": "Hide",
+      "show": "Show"
     },
     "searchUser": { "search": "cerca..." },
     "soundEffectSettings": { "header": "Suoni" },

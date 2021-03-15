@@ -36,7 +36,7 @@
       "startPrivateRoom": "začať s nimi súkromnú miestnosť"
     },
     "followList": {},
-    "home": { "createRoom": "Vytvoriť miestnosť" },
+    "home": { "createRoom": "Vytvoriť miestnosť", "refresh": "Refresh" },
     "inviteList": {
       "roomGone": "miestnosť je fuč, vráť sa",
       "shareRoomLink": "zdieľať odkaz miestnosti",
@@ -70,7 +70,9 @@
     "room": {
       "speakers": "Rozprávači",
       "requestingToSpeak": "Chce povolenie rozprávať",
-      "listeners": "Poslucháči"
+      "listeners": "Poslucháči",
+      "hide": "Hide",
+      "show": "Show"
     },
     "searchUser": { "search": "hľadať..." },
     "soundEffectSettings": { "header": "Zvuky" },

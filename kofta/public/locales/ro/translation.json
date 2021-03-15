@@ -37,7 +37,7 @@
       "startPrivateRoom": "începe o cameră nouă cu ei"
     },
     "followList": {},
-    "home": { "createRoom": "Crează cameră" },
+    "home": { "createRoom": "Crează cameră", "refresh": "Refresh" },
     "inviteList": {
       "roomGone": "camera a dispărut, du-te înapoi",
       "shareRoomLink": "partajează link cu camera",
@@ -71,7 +71,9 @@
     "room": {
       "speakers": "Vorbitori",
       "requestingToSpeak": "Cere sa vorbească",
-      "listeners": "Ascultători"
+      "listeners": "Ascultători",
+      "hide": "Hide",
+      "show": "Show"
     },
     "searchUser": { "search": "caută..." },
     "soundEffectSettings": { "header": "Sunete" },

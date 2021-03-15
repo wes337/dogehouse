@@ -37,7 +37,7 @@
       "startPrivateRoom": "załóż z nim prywatny pokój"
     },
     "followList": {},
-    "home": { "createRoom": "Stwórz pokój" },
+    "home": { "createRoom": "Stwórz pokój", "refresh": "Refresh" },
     "inviteList": {
       "roomGone": "pokój usunięty, wróć",
       "shareRoomLink": "udostępnij link do pokoju",
@@ -71,7 +71,9 @@
     "room": {
       "speakers": "Mówiący",
       "requestingToSpeak": "Prośba o pozwolenie na mówienie",
-      "listeners": "Słuchacze"
+      "listeners": "Słuchacze",
+      "hide": "Hide",
+      "show": "Show"
     },
     "searchUser": { "search": "szukaj..." },
     "soundEffectSettings": { "header": "Dźwięki" },

@@ -37,7 +37,7 @@
       "startPrivateRoom": "započni privatnu sobu sa njima"
     },
     "followList": {},
-    "home": { "createRoom": "Kreiraj sobu" },
+    "home": { "createRoom": "Kreiraj sobu", "refresh": "Refresh" },
     "inviteList": {
       "roomGone": "soba je nestala, vrati me nazad",
       "shareRoomLink": "podeli vezu do sobe",
@@ -71,7 +71,9 @@
     "room": {
       "speakers": "Govornici",
       "requestingToSpeak": "Molim za reč",
-      "listeners": "Slušaoci"
+      "listeners": "Slušaoci",
+      "hide": "Hide",
+      "show": "Show"
     },
     "searchUser": { "search": "pretraži..." },
     "soundEffectSettings": { "header": "Zvukovi" },
