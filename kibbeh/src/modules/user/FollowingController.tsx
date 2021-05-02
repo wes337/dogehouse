@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { SolidFriends } from "../../icons";
 import { isServer } from "../../lib/isServer";
 import { ApiPreloadLink } from "../../shared-components/ApiPreloadLink";
@@ -51,6 +51,14 @@ const Page = ({
     },
     vars
   );
+
+  useEffect(() => {
+    const loadMoreButtonVisible = !!entry?.isIntersecting;
+
+    if (loadMoreButtonVisible && isLastPage && data?.nextCursor) {
+      onLoadMore(data.nextCursor!);
+    }
+  }, [data?.nextCursor, entry?.isIntersecting, onLoadMore]);
 
   if (isLoading) {
     return <CenterLoader />;
