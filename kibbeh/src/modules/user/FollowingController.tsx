@@ -70,14 +70,6 @@ const Page = ({
     else return <div className={styles}>No followers</div>;
   }
 
-  // if (isOnlyPage && data.rooms.length === 0) {
-  //   return (
-  //     <Button variant="small" onClick={() => refetch()}>
-  //       {t("pages.home.refresh")}
-  //     </Button>
-  //   );
-  // }
-
   return (
     <>
       {data.users.map((user) => (
