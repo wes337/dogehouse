@@ -55,7 +55,7 @@ const Page = ({
   useEffect(() => {
     const loadMoreButtonVisible = !!entry?.isIntersecting;
 
-    if (loadMoreButtonVisible && isLastPage && data?.nextCursor) {
+    if (loadMoreButtonVisible && data?.nextCursor) {
       onLoadMore(data.nextCursor!);
     }
   }, [data?.nextCursor, entry?.isIntersecting, onLoadMore]);
