@@ -87,7 +87,7 @@ const Page = ({
               </div>
             </ApiPreloadLink>
           </div>
-          <div className="flex block">
+          <div className="flex">
             {conn.user.username !== user.username && (
               <Button
                 loading={followLoading && variables?.[0] === user.id}
