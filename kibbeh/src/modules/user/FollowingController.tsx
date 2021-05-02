@@ -1,9 +1,10 @@
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { SolidFriends } from "../../icons";
 import { isServer } from "../../lib/isServer";
 import { ApiPreloadLink } from "../../shared-components/ApiPreloadLink";
 import { useConn } from "../../shared-hooks/useConn";
+import { useIntersectionObserver } from "../../shared-hooks/useIntersectionObserver";
 import { useTypeSafeMutation } from "../../shared-hooks/useTypeSafeMutation";
 import { useTypeSafeQuery } from "../../shared-hooks/useTypeSafeQuery";
 import { useTypeSafeTranslation } from "../../shared-hooks/useTypeSafeTranslation";
@@ -30,7 +31,8 @@ const Page = ({
   onLoadMore: (o: number) => void;
 }) => {
   const conn = useConn();
-
+  const ref = useRef<HTMLDivElement | null>(null);
+  const entry = useIntersectionObserver(ref, {});
   const {
     mutateAsync,
     isLoading: followLoading,
@@ -122,8 +124,8 @@ const Page = ({
           </div>
         </div>
       ))}
-      {isLastPage && data.nextCursor ? (
-        <div className={`flex justify-center py-5`}>
+      {isLastPage && data.nextCursor && (
+        <div ref={ref} className={`flex justify-center py-5`}>
           <Button
             size="small"
             onClick={() => {
@@ -133,7 +135,7 @@ const Page = ({
             {t("common.loadMore")}
           </Button>
         </div>
-      ) : null}
+      )}
     </>
   );
 };
